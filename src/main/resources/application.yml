@@ -1,0 +1,14 @@
+server:
+  port: 5015
+
+spring:
+  application:
+    name: ngepost
+  profiles:
+    active: dev
+
+jwt:
+  secret: mySecretKey123456789012345678901234567890
+  expiration: 86400000
+  customer:
+    expiration: 604800000
