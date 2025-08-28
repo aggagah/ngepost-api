@@ -5,10 +5,10 @@ spring:
   application:
     name: ngepost
   profiles:
-    active: dev
+    active: prod
 
 jwt:
-  secret: mySecretKey123456789012345678901234567890
+  secret: "thisIsASuperLongSecretKeyWithAtLeast32Chars!"
   expiration: 86400000
   customer:
     expiration: 604800000
